@@ -4,6 +4,8 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
+            - name: Running...
+              run: echo "Running..."
             - name: Get code
               uses: actions/checkout@v3
             - name: Install NodeJS
